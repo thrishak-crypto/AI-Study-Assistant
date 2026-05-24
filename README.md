@@ -24,7 +24,19 @@ An AI-powered study assistant built with **Python, Streamlit, and Groq LLM** tha
 ---
 
 ## 📂 Project Structure
-app.py
-ui.py
-.gitignore
-README.md 
+- app.py
+- ui.py
+- .gitignore
+- README.md 
+
+⚙️ How to Run This Project
+1. Install dependencies
+pip install streamlit groq python-dotenv
+2. Set up environment variables
+
+Create a .env file in the project folder:
+
+GROQ_API_KEY=your_api_key_here
+
+3. Run the application
+streamlit run ui.py
